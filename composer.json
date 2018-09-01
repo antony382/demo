@@ -1,0 +1,13 @@
+{
+    "name": "processdrive/demo",
+    "description": "demo package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agustine",
+            "email": "agustine@processdrive.com"
+        }
+    ],
+    "require": {}
+}
