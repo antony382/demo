@@ -9,5 +9,18 @@
             "email": "agustine@processdrive.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "processdrive\\demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "processdrive\\demo\\DemoServiceProvider"
+            ]
+        }
+    }
 }
